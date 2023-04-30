@@ -5,6 +5,7 @@ const initApp = () => {
     const toggleMenu = () => {
         mobileMenu.classList.toggle('hidden')
         mobileMenu.classList.toggle('flex')
+        hamburgerBtn.classList.toggle('toggle-btn')
     }
 
     hamburgerBtn.addEventListener('click', toggleMenu)
@@ -12,3 +13,5 @@ const initApp = () => {
 }
 
 document.addEventListener('DOMContentLoaded', initApp)
+
+// modal
