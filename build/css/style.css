@@ -588,12 +588,12 @@ video {
   margin-top: -0.125rem;
 }
 
-.mb-1 {
-  margin-bottom: 0.25rem;
-}
-
 .mb-12 {
   margin-bottom: 3rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 
 .mb-24 {
@@ -606,10 +606,6 @@ video {
 
 .mb-8 {
   margin-bottom: 2rem;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem;
 }
 
 .block {
@@ -664,6 +660,10 @@ video {
   width: 2.5rem;
 }
 
+.w-14 {
+  width: 3.5rem;
+}
+
 .w-8 {
   width: 2rem;
 }
@@ -674,14 +674,6 @@ video {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-12 {
-  width: 3rem;
-}
-
-.w-14 {
-  width: 3.5rem;
 }
 
 .max-w-4xl {
@@ -738,6 +730,10 @@ video {
   align-items: center;
 }
 
+.justify-start {
+  justify-content: flex-start;
+}
+
 .justify-end {
   justify-content: flex-end;
 }
@@ -750,10 +746,6 @@ video {
   justify-content: space-between;
 }
 
-.justify-around {
-  justify-content: space-around;
-}
-
 .gap-8 {
   gap: 2rem;
 }
@@ -764,12 +756,12 @@ video {
   margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.self-start {
-  align-self: flex-start;
-}
-
 .self-end {
   align-self: flex-end;
+}
+
+.self-center {
+  align-self: center;
 }
 
 .scroll-smooth {
@@ -852,10 +844,6 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.text-left {
-  text-align: left;
 }
 
 .text-center {
